@@ -1,0 +1,187 @@
+*,html{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+
+body{
+    background: linear-gradient(to left, rgb(1, 1, 87), rgb(107, 0, 139));
+}
+
+.container {
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+
+/* Start Screen Responsive */
+
+/* Small  */
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+    }
+    /* Medium  */
+    @media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+    }
+    /* Big  */
+    @media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+
+/* ====================== Start Header Section ====================== */
+.forHeaders{
+    text-align: center;
+    position: relative;
+    top: 20px;
+    width: 65vw;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 50vh;
+    background: rgba( 255, 255, 255, 0.35 );
+    border-radius: 10px;
+    margin-bottom: 4rem;
+    padding: 10px;
+
+}
+.forHeaders .container{
+
+    width: 100%;
+    height: 100%;
+}
+/* ===== Start Content ===== */
+.forHeaders .container .content{margin-bottom: 5vh;}
+.forHeaders .container .content .header{
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+/* ===== End Content  =====*/
+
+
+.forHeaders .container .checking{
+    color: #00000082;;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ====================== End Header Section ====================== */
+
+
+
+/* ====================== Start Box of Changing the Colors ======================  */
+
+
+.forButton{
+
+    background: rgba( 255, 255, 255, 0.35 );
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 25vh;
+
+
+}
+.forButton .container{
+
+    width: 100%;
+    text-align: center;
+
+}
+
+
+
+/* ====================== End Box of Changing the Colors ======================  */
+
+
+
+
+
+/* When Screen Is Small */
+
+@media (max-width: 768px) {
+    .forHeaders{
+
+    width: 60vw;
+    height: 43vh;
+    padding: 8px;
+}
+
+
+
+.forButton{
+
+    width: 60vw;
+    height: 20vh;
+}
+    }
+
+    /* Medium  */
+    @media (max-width: 992px) {
+        .forHeaders{
+
+        width: 85vw;
+        height: 45vh;
+        padding: 20px;
+    }
+
+
+
+    .forButton{
+
+        width: 85vw;
+        height: 20vh;
+    }
+    }
+
+        /* Medium  */
+    @media (max-width: 800px) {
+        .forHeaders{
+
+    width: 85vw;
+    height: 50vh;
+    padding: 8px;
+    margin-bottom: 6rem;
+    }
+
+
+
+    .forButton{
+
+        width: 85vw;
+        height: 20vh;
+    }
+    } 
